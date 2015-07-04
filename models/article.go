@@ -7,7 +7,7 @@ import (
 )
 
 type Article struct {
-	ID        int
+	ID        int    `json:"-"`
 	Title     string `sql:"size:128"`
 	Text      string `sql:"DEFAULT'';type:text"`
 	Author    string `sql:"size 20"`
