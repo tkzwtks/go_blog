@@ -3,6 +3,11 @@
 	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
+			"ImportPath": "github.com/flosch/pongo2",
+			"Comment": "v1.0-rc1-164-g3200aa4",
+			"Rev": "3200aa44378aee8d8ac2a203b1840094ff22a77b"
+		},
+		{
 			"ImportPath": "github.com/go-sql-driver/mysql",
 			"Comment": "v1.2-112-gfb72997",
 			"Rev": "fb7299726d2e68745a8805b14f2ff44b5c2cfa84"
